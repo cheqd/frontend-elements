@@ -1,13 +1,18 @@
 {
     "name": "frontend-elements",
     "version": "0.1.0",
+    "license": "Apache-2.0",
     "private": true,
     "dependencies": {
-        "bootstrap": "^5.0.0-beta1",
-        "qrcode.react": "^1.0.1",
+        "bootstrap": "^5.1.3",
+        "qrcode.react": "^3.0.2",
         "sass": "^1.52.1"
     },
     "devDependencies": {
-        "@types/qrcode.react": "^1.0.1"
+        "@types/bootstrap": "^5"
+    },
+    "peerDependencies": {
+        "@popperjs/core": "*",
+        "react": "*"
     }
 }
