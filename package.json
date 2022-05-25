@@ -12,7 +12,7 @@
         "@types/bootstrap": "^5"
     },
     "peerDependencies": {
-        "@popperjs/core": "^2.9.2",
-        "react": "^16.8.0"
+        "@popperjs/core": "*",
+        "react": "*"
     }
 }
