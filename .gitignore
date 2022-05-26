@@ -1,5 +1,10 @@
 ### APP-SPECIFIC EXCLUSIONS ###
-
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
 
 ### GENERAL EXCLUSIONS ###
 
