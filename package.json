@@ -1,0 +1,54 @@
+{
+  "name": "@cheqd/frontend-elements",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && rollup -c"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-alias": "^3.1.9",
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-image": "^2.1.1",
+    "@rollup/plugin-node-resolve": "^14.1.0",
+    "@types/react": "^18.0.20",
+    "postcss": "^8.4.16",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^2.79.0",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.34.0",
+    "sass": "^1.54.9",
+    "typescript": "^4.8.3"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "react-qrcode-logo": "^2.8.0"
+  },
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheqd/frontend-elements.git"
+  },
+  "keywords": [
+    "frontend-elements",
+    "react",
+    "components"
+  ],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/cheqd/frontend-elements/issues"
+  },
+  "homepage": "https://github.com/cheqd/frontend-elements#readme",
+  "description": ""
+}
