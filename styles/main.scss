@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
-@import '../../node_modules/bootstrap/scss/bootstrap';
-@import 'fonts';
+@import '~bootstrap/scss/bootstrap.scss';
+@import './fonts.scss';
 
 // primary font
 $primary_font: 'Nunito';
