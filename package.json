@@ -1,8 +1,8 @@
 {
   "name": "@cheqd/frontend-elements",
   "version": "0.1.0",
-  "main": "dist/index.js",
-  "module": "dist/index.es.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
   "files": [
     "dist"
   ],
@@ -23,6 +23,7 @@
     "rollup-plugin-copy": "^3.4.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.34.0",
     "sass": "^1.54.9",
     "typescript": "^4.8.3"
@@ -30,10 +31,6 @@
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  },
-  "dependencies": {
-    "bootstrap": "^5.2.1",
-    "react-qrcode-logo": "^2.8.0"
   },
   "types": "./dist/index.d.ts",
   "repository": {
@@ -50,5 +47,9 @@
     "url": "https://github.com/cheqd/frontend-elements/issues"
   },
   "homepage": "https://github.com/cheqd/frontend-elements#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "react-qrcode-logo": "^2.8.0"
+  }
 }
