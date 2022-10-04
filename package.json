@@ -7,15 +7,23 @@
     "dist"
   ],
   "scripts": {
-    "build": "rm -rf dist && rollup -c"
+    "build": "rm -rf dist && rollup -c",
+	"semantic": "npx semantic-release"
   },
   "license": "MIT",
   "devDependencies": {
+	"@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.5",
+    "@semantic-release/npm": "^9.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.3",
     "@rollup/plugin-alias": "^3.1.9",
     "@rollup/plugin-commonjs": "^22.0.2",
     "@rollup/plugin-image": "^2.1.1",
     "@rollup/plugin-node-resolve": "^14.1.0",
     "@types/react": "^18.0.20",
+	"conventional-changelog-conventionalcommits": "^5.0.0",
     "postcss": "^8.4.16",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -25,6 +33,7 @@
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.34.0",
     "sass": "^1.54.9",
+	"semantic-release": "^19.0.4",
     "typescript": "^4.8.3"
   },
   "peerDependencies": {
