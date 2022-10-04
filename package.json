@@ -1,54 +1,60 @@
 {
-  "name": "@cheqd/frontend-elements",
-  "version": "0.1.0",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "build": "rm -rf dist && rollup -c"
+  "name": "@cheqd/wallet-frontend-elements",
+  "version": "1.0.0",
+  "description": "Frontend elements package for cheqd Wallet",
+  "license": "Apache-2.0",
+  "author": "Cheqd Foundation Limited (https://github.com/cheqd)",
+  "repository": "https://github.com/cheqd/wallet-frontend-elements.git",
+  "bugs": {
+    "url": "https://github.com/cheqd/wallet-frontend-elements/issues"
   },
-  "license": "MIT",
-  "devDependencies": {
-    "@rollup/plugin-alias": "^3.1.9",
-    "@rollup/plugin-commonjs": "^22.0.2",
-    "@rollup/plugin-image": "^2.1.1",
-    "@rollup/plugin-node-resolve": "^14.1.0",
-    "@types/react": "^18.0.20",
-    "postcss": "^8.4.16",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "rollup": "^2.79.0",
-    "rollup-plugin-copy": "^3.4.0",
-    "rollup-plugin-postcss": "^4.0.2",
-    "rollup-plugin-terser": "^7.0.2",
-    "rollup-plugin-typescript2": "^0.34.0",
-    "sass": "^1.54.9",
-    "typescript": "^4.8.3"
-  },
-  "peerDependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "types": "./dist/index.d.ts",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cheqd/frontend-elements.git"
-  },
+  "homepage": "https://github.com/cheqd/wallet-frontend-elements#readme",
   "keywords": [
     "frontend-elements",
     "react",
     "components"
   ],
-  "author": "",
-  "bugs": {
-    "url": "https://github.com/cheqd/frontend-elements/issues"
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && rollup -c",
+    "semantic": "npx semantic-release"
   },
-  "homepage": "https://github.com/cheqd/frontend-elements#readme",
-  "description": "",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "dependencies": {
     "bootstrap": "^5.2.2",
     "react-qrcode-logo": "^2.8.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-alias": "^3.1.9",
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-image": "^2.1.1",
+    "@rollup/plugin-node-resolve": "^14.1.0",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.6",
+    "@semantic-release/npm": "^9.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.3",
+    "@types/react": "^18.0.21",
+    "conventional-changelog-conventionalcommits": "^5.0.0",
+    "postcss": "^8.4.17",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^2.79.1",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "sass": "^1.55.0",
+    "semantic-release": "^19.0.5",
+    "typescript": "^4.8.4"
   }
 }
