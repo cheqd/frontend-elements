@@ -1,6 +1,6 @@
 {
     "branches": [
-        "main",
+        "cheqd",
         {
             "name": "develop",
             "channel": "beta",
