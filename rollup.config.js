@@ -1,5 +1,4 @@
 import alias from "@rollup/plugin-alias";
-// import peerDepsExternal from "rollup-plugin-peer-deps-external";
 import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import typescript from "rollup-plugin-typescript2";
@@ -26,7 +25,6 @@ export default {
     alias({
       entries: [{ find: "@assets", replacement: "./assets/images" }],
     }),
-    // peerDepsExternal(),
     resolve(),
     commonjs(),
     typescript({ tsconfig: "./tsconfig.json" }),
