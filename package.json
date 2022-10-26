@@ -33,10 +33,10 @@
     "react-qrcode-logo": "^2.8.0"
   },
   "devDependencies": {
-    "@rollup/plugin-alias": "^3.1.9",
-    "@rollup/plugin-commonjs": "^22.0.2",
-    "@rollup/plugin-image": "^2.1.1",
-    "@rollup/plugin-node-resolve": "^14.1.0",
+    "@rollup/plugin-alias": "^4.0.2",
+    "@rollup/plugin-commonjs": "^23.0.2",
+    "@rollup/plugin-image": "^3.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/commit-analyzer": "^9.0.2",
     "@semantic-release/git": "^10.0.1",
